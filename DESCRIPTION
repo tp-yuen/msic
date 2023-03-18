@@ -1,0 +1,16 @@
+Package: msic
+Type: Package
+Title: Single-index mixture cure model under monotonicity constraints (Monotone single-index cure model)
+Version: 1.0.0
+Date: 2023-03-16
+Authors@R: c(person(given = "Eni", family = "Musta", role = c("aut")),
+            person(given = "Tsz Pang", family = "Yuen", 
+                   email = "patrick.tp.yuen@gmail.com",
+                   role = c("aut", "cre")))
+Depends: R (>= 3.5.0)
+Imports: graphics, stats, survival, Rsolnp (>= 1.16)
+Description: Single-index mixture cure model under monotonicity constraints for time-to-event data. For details, see Musta and Yuen (2022) <arXiv:2211.09464>.
+License: GPL (>= 2)
+Encoding: UTF-8
+RoxygenNote: 7.2.3
+LazyData: false
