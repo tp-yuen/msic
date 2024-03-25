@@ -245,6 +245,7 @@ msic <- function(X, Z, y, delta,
     }
     gamma.current <- incidence$gamma
     l.current <- incidence$l
+    monotone.link.current <- l.current$link
     smoothed.link.current <- incidence$smoothed.link
 
     ### M-step for \beta
